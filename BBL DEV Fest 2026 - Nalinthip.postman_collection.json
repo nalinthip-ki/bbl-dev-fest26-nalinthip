@@ -31,7 +31,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/users/1234",
+          "raw": "http://localhost:8080/users/1",
           "protocol": "http",
           "host": [
             "localhost"
@@ -39,7 +39,7 @@
           "port": "8080",
           "path": [
             "users",
-            "1234"
+            "1"
           ]
         }
       },
@@ -80,7 +80,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \n}",
+          "raw": "{\n    \"email\": \"Sincere@april.biz\",\n    \"id\": 1,\n    // \"name\": \"Leanne Graham\",\n    \"phone\": \"1-770-736-8031 x56442\",\n    \"username\": \"Bret\",\n    \"website\": \"hildegard.org\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -88,7 +88,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/users/1234",
+          "raw": "http://localhost:8080/users/1",
           "protocol": "http",
           "host": [
             "localhost"
@@ -96,7 +96,7 @@
           "port": "8080",
           "path": [
             "users",
-            "1234"
+            "1"
           ]
         }
       },
@@ -109,10 +109,10 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \n}"
+          "raw": ""
         },
         "url": {
-          "raw": "http://localhost:8080/users/1234",
+          "raw": "http://localhost:8080/users/100",
           "protocol": "http",
           "host": [
             "localhost"
@@ -120,7 +120,7 @@
           "port": "8080",
           "path": [
             "users",
-            "1234"
+            "100"
           ]
         }
       },
