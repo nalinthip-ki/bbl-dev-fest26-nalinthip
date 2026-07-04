@@ -1,0 +1,20 @@
+# Build output — never ship the host's target/ into the build context
+target/
+
+# Version control & CI
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Docs
+HELP.md
+
+# Docker files themselves
+Dockerfile
+.dockerignore
